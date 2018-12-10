@@ -24,9 +24,6 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 
 DEVICE_PATH := device/samsung/m51
 
-# 64 Bit
-TARGET_USES_64_BIT_BINDER := true
-
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
