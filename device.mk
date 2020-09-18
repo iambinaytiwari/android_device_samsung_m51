@@ -506,6 +506,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.rmt_storage.rc \
     vendor.qti.tftp.rc \
     wifi_qcom.rc \
+    wifi_sec.rc \
     init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \

@@ -146,6 +146,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_etc {
+    name: "wifi_sec.rc",
+    src: "vendor/etc/init/wifi_sec.rc",
+    sub_dir: "init/",
+    vendor: true,
+}
+
 // Ramdisk's Scripts
 
 sh_binary {
