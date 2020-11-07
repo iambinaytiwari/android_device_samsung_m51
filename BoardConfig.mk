@@ -270,7 +270,6 @@ BOARD_ROOT_EXTRA_FOLDERS := \
     keydata \
     keyrefuge \
     metadata \
-    omr \
     optics \
     prism \
     spu \

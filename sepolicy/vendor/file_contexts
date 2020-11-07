@@ -11,7 +11,7 @@
 /dev/block/platform/soc/1d84000\.ufshc/by-name/hidden        u:object_r:hiddenblk_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/modemst1      u:object_r:vendor_modem_efs_partition_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/modemst2      u:object_r:vendor_modem_efs_partition_device:s0
-/dev/block/platform/soc/1d84000\.ufshc/by-name/omr           u:object_r:metadata_block_device:s0
+/dev/block/platform/soc/1d84000\.ufshc/by-name/metadata      u:object_r:metadata_block_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/param         u:object_r:paramblk_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/persistent    u:object_r:frp_block_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/sec_efs       u:object_r:sec_efs_block_device:s0
@@ -195,7 +195,6 @@
 /dqmdbg(/.*)?							u:object_r:dqmdbgblk_file:s0
 /keydata(/.*)?							u:object_r:keydata_data_file:s0
 /keyrefuge(/.*)?						u:object_r:keyrefuge_data_file:s0
-/omr(/.*)?							u:object_r:omr_file:s0
 /optics(/.*)?							u:object_r:vendor_file:s0
 /prism(/.*)?							u:object_r:system_file:s0
 /spu(/.*)?							u:object_r:spu_file:s0
