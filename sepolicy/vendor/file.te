@@ -60,8 +60,6 @@ allow keydata_data_file labeledfs:filesystem associate;
 type keyrefuge_data_file, fs_type;
 allow keyrefuge_data_file labeledfs:filesystem associate;
 
-type omr_file, file_type, mlstrustedobject;
-
 type spu_file, fs_type;
 allow spu_file labeledfs:filesystem associate;
 
