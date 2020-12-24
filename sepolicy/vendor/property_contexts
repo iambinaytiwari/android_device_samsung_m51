@@ -8,6 +8,9 @@ vendor.bluetooth_fw_ver                          u:object_r:vendor_bluetooth_pro
 # Fastbootd
 ro.fastbootd.available                           u:object_r:exported_default_prop:s0
 
+# Fastcharge
+persist.vendor.sec.fastchg_enabled               u:object_r:vendor_fastcharge_prop:s0
+
 # Perf
 persist.vendor.perfservice.                      u:object_r:vendor_mpctl_prop:s0
 ro.vendor.extension_library                      u:object_r:vendor_mpctl_prop:s0
