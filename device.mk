@@ -197,6 +197,10 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.face@1.0.vendor \
     android.hardware.biometrics.fingerprint@2.1.vendor \
     android.hardware.biometrics.fingerprint@2.3-service.samsung \
+	
+# Fingerprint Gestures
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/vendor/usr/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl \
 
 # FM
 PRODUCT_PACKAGES += \
