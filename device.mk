@@ -55,7 +55,6 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     android.hardware.audio@6.0-impl.sm6150 \
     android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.common-util \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio@2.0-impl \
@@ -133,7 +132,6 @@ PRODUCT_COPY_FILES += \
 
 # Automotive/Gearhead
 PRODUCT_PACKAGES += \
-    android.hardware.automotive.vehicle@2.0 \
     android.hardware.automotive.vehicle@2.0.vendor \
     android.hardware.automotive.vehicle@2.0-manager-lib \
 
@@ -144,6 +142,7 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     libbluetooth_audio_session \
     libbluetooth_qti \
+    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor \
@@ -153,12 +152,9 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.common@2.0.vendor \
     android.frameworks.cameraservice.device@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor \
-    android.hardware.camera.device@3.7 \
-    android.hardware.camera.device@3.7.vendor \
-    android.hardware.camera.provider@2.5-impl \
     android.hardware.camera.provider@2.6-service.sm6150 \
-    android.hardware.camera.provider@2.7 \
     android.hardware.camera.provider@2.7.vendor \
+    android.hardware.camera.device@3.7.vendor \
     libcamera2ndk_vendor \
     libdng_sdk \
     libdng_sdk.vendor \
@@ -191,7 +187,6 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey \
-    android.hardware.drm@1.3 \
     android.hardware.drm@1.3.vendor \
 
 # Fastbootd
@@ -200,16 +195,13 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.face@1.0 \
     android.hardware.biometrics.face@1.0.vendor \
-    android.hardware.biometrics.fingerprint@2.1 \
     android.hardware.biometrics.fingerprint@2.1.vendor \
     android.hardware.biometrics.fingerprint@2.3-service.samsung \
 
 # FM
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl \
-    android.hardware.broadcastradio@1.0-service \
 
 PRODUCT_PACKAGES += \
     FM2 \
@@ -224,10 +216,6 @@ PRODUCT_PACKAGES += \
 
 # GNSS/GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0 \
-    android.hardware.gnss@1.1 \
-    android.hardware.gnss@2.0 \
-    android.hardware.gnss@2.1 \
     android.hardware.gnss@2.1.vendor \
 
 PRODUCT_COPY_FILES += \
@@ -257,34 +245,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libion \
     libvulkan \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.color@1.3 \
-    vendor.display.config@1.0 \
-    vendor.display.config@1.1 \
-    vendor.display.config@1.2 \
-    vendor.display.config@1.3 \
-    vendor.display.config@1.4 \
-    vendor.display.config@1.5 \
-    vendor.display.config@2.0 \
-    vendor.display.postproc@1.0 \
-    vendor.display.color@1.0.vendor \
-    vendor.display.color@1.1.vendor \
-    vendor.display.color@1.2.vendor \
-    vendor.display.color@1.3.vendor \
-    vendor.display.color@1.4.vendor \
     vendor.display.color@1.5.vendor \
-    vendor.display.config@1.0.vendor \
-    vendor.display.config@1.1.vendor \
-    vendor.display.config@1.2.vendor \
-    vendor.display.config@1.3.vendor \
-    vendor.display.config@1.4.vendor \
-    vendor.display.config@1.5.vendor \
-    vendor.display.config@1.6.vendor \
-    vendor.display.config@1.7.vendor \
-    vendor.display.config@1.8.vendor \
-    vendor.display.config@1.9.vendor \
     vendor.display.config@1.10.vendor \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0.vendor \
@@ -335,14 +296,10 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libavservices_minijail \
     libavservices_minijail.vendor \
     libavservices_minijail_vendor \
-    libcodec2_hidl@1.0 \
     libcodec2_hidl@1.0.vendor \
-    libcodec2_hidl@1.1 \
     libcodec2_hidl@1.1.vendor \
-    libcodec2_vndk \
     libcodec2_vndk.vendor \
     libsfplugin_ccodec \
 
@@ -429,7 +386,6 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Performance
 PRODUCT_PACKAGES += \
     libqti-perfd-client \
-    vendor.qti.hardware.perf@2.2 \
     vendor.qti.hardware.perf@2.2.vendor \
 
 # Permissions
@@ -488,7 +444,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti.sm6150 \
     android.hardware.power.stats@1.0-service.mock \
-    android.hardware.power@1.3 \
     android.hardware.power@1.3.vendor \
 
 PRODUCT_COPY_FILES += \
@@ -594,13 +549,10 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.5 \
     android.hardware.radio@1.5.vendor \
-    android.hardware.radio.config@1.2 \
     android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.deprecated@1.0 \
     android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.secure_element@1.0 \
+    android.hardware.secure_element@1.0.vendor \
     libril \
     librilutils \
     libxml2 \
@@ -663,9 +615,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb.gadget@1.0-service-qti \
-    android.hardware.usb@1.0.vendor \
-    android.hardware.usb@1.1.vendor \
+    android.hardware.usb@1.3-service-qti \
 
 # Vendor Service Manager
 PRODUCT_PACKAGES += \
