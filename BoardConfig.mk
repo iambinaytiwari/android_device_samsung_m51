@@ -264,15 +264,8 @@ SIM_COUNT := 2
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 BOARD_ROOT_EXTRA_FOLDERS := \
-    carrier \
-    dqmdbg \
     efs \
-    keydata \
-    keyrefuge \
     metadata \
-    optics \
-    prism \
-    spu \
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2023-07-01
