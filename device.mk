@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
     aptxalsOverlay \
     audio.bluetooth.default \
     libbluetooth_audio_session \
+    libbluetooth_qti \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor \
