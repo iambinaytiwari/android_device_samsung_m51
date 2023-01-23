@@ -596,6 +596,7 @@ PRODUCT_PACKAGES += \
     libril \
     librilutils \
     libxml2 \
+    secril_config_svc \
 
 # Seccomp Policy
 PRODUCT_COPY_FILES += \
