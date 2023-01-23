@@ -325,6 +325,10 @@ PRODUCT_PACKAGES += \
     libkeymaster4support.vendor:64 \
     libkeymaster4_1support.vendor:64 \
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.samsung-qcom.m51 \
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
