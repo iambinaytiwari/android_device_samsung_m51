@@ -181,6 +181,9 @@ ro.camera.notify_nfc=1
 ro.vendor.nfc.info.antpos=16
 ro.vendor.nfc.support.ese=false
 
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+
 # QCOM
 persist.vendor.qcomsysd.enabled=1
 sys.config.hardcoder.enable=false
