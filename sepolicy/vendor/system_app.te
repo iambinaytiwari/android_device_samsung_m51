@@ -10,3 +10,6 @@ binder_call(system_app, hal_power_default)
 # MDNIE
 allow system_app sysfs_mdnie_writable:dir search;
 allow system_app sysfs_mdnie_writable:file { open write getattr };
+
+set_prop(system_app, vendor_samsung_audio_prop)
+get_prop(system_app, vendor_samsung_audio_prop)
