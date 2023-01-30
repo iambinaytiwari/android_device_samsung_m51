@@ -179,6 +179,10 @@ PRODUCT_PACKAGES += \
 # Data
 $(call inherit-product, vendor/qcom/opensource/dataservices/dataservices_vendor_product.mk)
 
+# SamsungAdvancedDisplay
+PRODUCT_PACKAGES += \
+    AdvancedDisplay \
+
 # SamsungDoze
 PRODUCT_PACKAGES += \
     SamsungDoze \
