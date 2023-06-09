@@ -87,7 +87,6 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libvisualizer \
     libvolumelistener:32 \
-    SamsungAudio \
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \

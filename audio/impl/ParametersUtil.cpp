@@ -21,9 +21,6 @@
 
 #include <util/CoreUtils.h>
 
-#include <tinyalsa/asoundlib.h>
-#include <cutils/properties.h>
-
 namespace android {
 namespace hardware {
 namespace audio {
