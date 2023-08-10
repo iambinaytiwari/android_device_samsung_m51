@@ -1,1 +1,5 @@
 # All unpinned blobs below are extracted from m51nsxx-user 12 SP1A.210812.016 M515FXXS4DWA3 release-keys
+
+# Keymaster
+-vendor/lib64/libkeymaster_helper.so
+-vendor/lib64/libskeymaster4device.so
