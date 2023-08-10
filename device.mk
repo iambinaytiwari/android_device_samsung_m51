@@ -59,5 +59,9 @@ PRODUCT_PACKAGES += \
     camera.device@3.4-impl \
     camera.device@3.5-impl \
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend \
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/m51/m51-vendor.mk)
