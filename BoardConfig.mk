@@ -131,7 +131,8 @@ DEVICE_MATRIX_FILE := \
     $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_m51
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_m51
+TARGET_RECOVERY_DEVICE_MODULES := libinit_m51
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2023-07-01
