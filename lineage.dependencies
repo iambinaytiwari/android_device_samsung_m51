@@ -1,2 +1,6 @@
 [
+  {
+    "repository": "android_kernel_samsung_m51",
+    "target_path": "kernel/samsung/m51"
+  }
 ]
