@@ -455,6 +455,11 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.3 \
     android.hardware.power@1.3.vendor \
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat \
+
 # Public Libraries
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
