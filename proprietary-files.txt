@@ -42,10 +42,6 @@ vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
-# ANT+
--system_ext/lib/com.qualcomm.qti.ant@1.0.so
--system_ext/lib64/com.qualcomm.qti.ant@1.0.so
-
 # Audio
 -system_ext/framework/audiosphere.jar
 vendor/bin/audioflacapp
@@ -140,10 +136,6 @@ vendor/lib64/libbtnv.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so
-
-# Bluetooth (ANT+)
-vendor/lib/com.qualcomm.qti.ant@1.0.so
-vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
 # Bluetooth (Firmware)
 vendor/firmware/apbtfw11.tlv
