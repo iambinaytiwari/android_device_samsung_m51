@@ -161,5 +161,9 @@ PRODUCT_PACKAGES += \
     libril \
     libxml2 \
 
+# Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH) \
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/m51/m51-vendor.mk)
