@@ -16,6 +16,8 @@
 
 BOARD_VENDOR := samsung
 
+BUILD_BROKEN_DUP_RULES := true
+
 DEVICE_PATH := device/samsung/m51
 
 # 64 Bit
