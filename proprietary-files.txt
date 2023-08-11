@@ -706,6 +706,8 @@ vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC (Firmware)
+vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
+vendor/etc/nfc/sec_s3nrn4v_swreg.bin
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
 # OMX
