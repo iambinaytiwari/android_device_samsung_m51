@@ -451,6 +451,7 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti.m51 \
+    android.hardware.power.stats@1.0-service.mock \
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
