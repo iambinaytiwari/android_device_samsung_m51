@@ -233,10 +233,14 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
 
 # Overlays
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(DEVICE_PATH)/overlay-lineage/lineage-sdk \
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-lineage \
 
 # Performance
 PRODUCT_COPY_FILES += \
