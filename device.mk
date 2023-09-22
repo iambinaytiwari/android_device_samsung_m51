@@ -156,6 +156,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.7 \
     android.hardware.camera.device@3.7.vendor \
     android.hardware.camera.provider@2.5-impl \
+    android.hardware.camera.provider@2.6-service.sm6150 \
     android.hardware.camera.provider@2.7 \
     android.hardware.camera.provider@2.7.vendor \
     libcamera2ndk_vendor \
@@ -529,7 +530,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     $(DEVICE_PATH)/rootdir/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     $(DEVICE_PATH)/rootdir/vendor/etc/sec_config_oem:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config_oem \
-    $(DEVICE_PATH)/rootdir/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
 
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
