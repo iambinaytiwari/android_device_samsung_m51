@@ -857,7 +857,8 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
-vendor/lib64/libsec-ril.so
+vendor/lib64/libsec-ril-dsds.so|6086ffb3ac5494e23efbacf87bf20ae9ed88a88d
+vendor/lib64/libsec-ril.so|43788ac4a769c376f6f056dfcb8b9b4f9738438e
 vendor/lib64/libsemnativecarrierfeature.so
 vendor/lib64/libvkmanager_vendor.so
 vendor/lib64/libxml.so
