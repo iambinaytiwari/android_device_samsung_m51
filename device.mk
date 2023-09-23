@@ -603,7 +603,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.samsung \
+    vendor.lineage.touch@1.0-service.m51 \
 
 # USB
 PRODUCT_PACKAGES += \
