@@ -217,6 +217,10 @@ vendor/lib/camera.device@3.2-impl.so
 vendor/lib/camera.device@3.3-impl.so
 vendor/lib/camera.device@3.4-impl.so
 vendor/lib/camera.device@3.5-impl.so
+vendor/lib/vendor.samsung.hardware.camera.device@5.0-impl.so
+vendor/lib/vendor.samsung.hardware.camera.device@5.0.so
+vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so
+vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so
 vendor/lib/libBeauty_v4.camera.samsung.so
 vendor/lib/libDualCamBokehCapture.camera.samsung.so
 vendor/lib/libHprFace_GAE_api.camera.samsung.so
