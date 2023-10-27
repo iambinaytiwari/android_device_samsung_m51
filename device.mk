@@ -290,6 +290,12 @@ PRODUCT_PACKAGES += \
     libkeymaster4support.vendor:64 \
     libkeymaster4_1support.vendor:64 \
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-impl \
+    android.hardware.light@2.0-service \
+    lights.sm6150 \
+
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.samsung-qcom.m51 \
