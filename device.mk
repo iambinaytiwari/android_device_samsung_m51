@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    audio_parameter_service.samsung_m51 \
     android.hardware.audio@7.0-impl.sm6150 \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.common-util.vendor \
