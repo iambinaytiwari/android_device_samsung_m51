@@ -146,6 +146,9 @@ vendor/firmware/apbtfw11.tlv
 vendor/firmware/apnv11.bin
 
 # Camera
+lib/libFacePreProcessing.camera.samsung.so:vendor/lib/libFacePreProcessing.camera.samsung.so
+lib64/libFacePreProcessing.camera.samsung.so:vendor/lib64/libFacePreProcessing.camera.samsung.so
+lib64/libFacialStickerEngine.arcsoft.so:vendor/lib64/libFacialStickerEngine.arcsoft.so
 vendor/lib/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib/camera/components/com.qti.eisv2.so
 vendor/lib/camera/components/com.qti.eisv3.so
@@ -259,7 +262,6 @@ vendor/lib/libuniplugin.so
 vendor/lib/libvdis_core.so
 vendor/lib/libvdis_interface.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib/vendor.samsung.hardware.camera.device@5.0-impl.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
@@ -370,7 +372,6 @@ vendor/lib64/libuniplugin.so
 vendor/lib64/libvdis_core.so
 vendor/lib64/libvdis_interface.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/vendor.samsung.hardware.camera.device@5.0-impl.so
 
 # Camera (Firmware)
 vendor/firmware/CAMERA_ICP.elf
