@@ -31,7 +31,7 @@ samsung_sm6150_model {
 }
 
 cc_binary {
-    name: "android.hardware.camera.provider@2.6-service.sm6150",
+    name: "android.hardware.camera.provider@2.6-service.m51",
     defaults: [
         "hidl_defaults",
         "samsung_sm6150_model_defaults",
@@ -43,7 +43,7 @@ cc_binary {
         "SamsungCameraProvider.cpp",
         "service.cpp"
     ],
-    init_rc: ["android.hardware.camera.provider@2.6-service.sm6150.rc"],
+    init_rc: ["android.hardware.camera.provider@2.6-service.m51.rc"],
     shared_libs: [
         "android.hardware.camera.provider@2.4",
         "android.hardware.camera.provider@2.4-legacy",
