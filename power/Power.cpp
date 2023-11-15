@@ -14,7 +14,7 @@
 ** limitations under the License.
 */
 
-#define LOG_TAG "android.hardware.power-service-qti"
+#define LOG_TAG "android.hardware.power-service-qti.m51"
 
 #include "Power.h"
 

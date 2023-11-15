@@ -15,8 +15,8 @@
 //
 
 cc_binary {
-    name: "vendor.lineage.touch@1.0-service.sm6150",
-    init_rc: ["vendor.lineage.touch@1.0-service.sm6150.rc"],
+    name: "vendor.lineage.touch@1.0-service.m51",
+    init_rc: ["vendor.lineage.touch@1.0-service.m51.rc"],
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     // FIXME: this should be 'vendor: true' for modules that will eventually be
