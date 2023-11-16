@@ -120,11 +120,11 @@ on post-fs-data
     chown system audio /sys/class/audio/amp/excursion_overcount_0
 
 # Samsung Pay
-#    mkdir /efs/pfw_data 0760 vendor_spay vendor_spay
+    mkdir /efs/pfw_data 0760 system system
 
 # MST/NFC Switch
-#    chown vendor_spay system /dev/mst_ctrl
-#    chmod 0660 /dev/mst_ctrl    
+    chown system system /dev/mst_ctrl
+    chmod 0660 /dev/mst_ctrl    
 
 # Fingerprint sensor
     chmod 0660 /dev/esfp0
