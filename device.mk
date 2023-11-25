@@ -609,7 +609,7 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.m51 \
+    android.hardware.vibrator-service.samsung \
 
 # WiFi
 PRODUCT_PACKAGES += \
