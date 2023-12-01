@@ -159,6 +159,7 @@ TARGET_KERNEL_CONFIG        := m51_defconfig
 BOARD_NAME                  := SRPTD22A004
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1d84000.ufshc
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=1 androidboot.usbcontroller=a600000.dwc3 firmware_class.path=/vendor/firmware_mnt/image nokaslr printk.devkmsg=on
 BOARD_BOOT_HEADER_VERSION := 2
 
