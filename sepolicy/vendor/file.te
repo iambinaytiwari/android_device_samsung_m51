@@ -48,7 +48,6 @@ type proc_simslot_count, fs_type, proc_type;
 type proc_swappiness, fs_type, proc_type;
 
 # SysFS
-type sysfs_camera, sysfs_type, r_fs_type, fs_type;
 type sysfs_fingerprint, sysfs_type, r_fs_type, fs_type;
 type sysfs_fpc, sysfs_type, r_fs_type, fs_type;
 type sysfs_iio, sysfs_type, r_fs_type, fs_type;
@@ -63,7 +62,6 @@ type sysfs_wifi, sysfs_type, r_fs_type, fs_type;
 # SysFS RW
 type sysfs_audio_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_battery_writable, sysfs_type, rw_fs_type, fs_type;
-type sysfs_camera_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_lcd_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_mdnie_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_power_writable, sysfs_type, rw_fs_type, fs_type;
