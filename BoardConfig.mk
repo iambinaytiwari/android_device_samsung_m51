@@ -204,7 +204,7 @@ BOARD_USES_METADATA_PARTITION        := true
 # Partition sizes, obtained with blockdev --getsize64
 BOARD_DTBOIMG_PARTITION_SIZE                    := 10485760
 BOARD_BOOTIMAGE_PARTITION_SIZE                  := 67108864
-BOARD_RECOVERYIMAGE_PARTITION_SIZE              := 67108864
+BOARD_RECOVERYIMAGE_PARTITION_SIZE              := 82726912
 BOARD_CACHEIMAGE_PARTITION_SIZE                 := 419430400
 BOARD_SUPER_PARTITION_SIZE                      := 8053063680
 BOARD_SUPER_PARTITION_GROUPS                    := qti_dynamic_partitions
