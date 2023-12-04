@@ -33,3 +33,7 @@ allow hal_power_default property_socket:sock_file write;
 unix_socket_connect(hal_power_default, property, init)
 get_prop(hal_power_default, vendor_mpctl_prop)
 set_prop(hal_power_default, vendor_power_prop)
+
+w_file_recursive(hal_power_default, sysfs_devices_system_cpu)
+w_file_recursive(hal_power_default, vendor_sysfs_devfreq)
+w_file_recursive(hal_power_default, vendor_sysfs_kgsl)
