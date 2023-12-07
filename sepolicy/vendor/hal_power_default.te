@@ -29,6 +29,8 @@ allow hal_power_default sysfs_wakeup:dir { ioctl read getattr lock open watch wa
 allow hal_power_default { sysfs_wakeup }:file rw_file_perms;
 allow hal_power_default sysfs_wakeup:lnk_file r_file_perms;
 
+allow hal_power_default sysfs:file write;
+
 allow hal_power_default property_socket:sock_file write;
 unix_socket_connect(hal_power_default, property, init)
 get_prop(hal_power_default, vendor_mpctl_prop)
