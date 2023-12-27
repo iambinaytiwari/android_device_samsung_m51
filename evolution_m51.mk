@@ -17,15 +17,21 @@
 # Inherit from m51 device
 $(call inherit-product, device/samsung/m51/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Evolution stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+
+# EvolutionX Specific Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_POCO_GAPPS := true
+TARGET_BUILD_APERTURE_CAMERA := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_m51
+PRODUCT_NAME := evolution_m51
 PRODUCT_DEVICE := m51
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-M515
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_BRAND := Samsung
+PRODUCT_MODEL := SM-M515F
+PRODUCT_MANUFACTURER := Samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
