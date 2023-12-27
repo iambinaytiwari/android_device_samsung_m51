@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m51.mk
+    $(LOCAL_DIR)/evolution_m51.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_m51-eng \
-    lineage_m51-userdebug \
-    lineage_m51-user
+    evolution_m51-eng \
+    evolution_m51-userdebug \
+    evolution_m51-user
