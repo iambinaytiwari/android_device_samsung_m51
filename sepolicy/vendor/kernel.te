@@ -22,3 +22,6 @@ allow kernel {
 allow kernel efs_file:dir search;
 allow kernel app_efs_file:dir search;
 allow kernel app_efs_file:file { read open getattr };
+
+allow kernel self:perf_event cpu;
+dontaudit kernel self:capability { dac_override dac_read_search };
