@@ -543,17 +543,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/samsung/aidl/power-libperfmgr \
     hardware/samsung \
 
-# Telephony
-PRODUCT_PACKAGES += \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext \
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext \
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti \
