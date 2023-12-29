@@ -460,7 +460,6 @@ PRODUCT_PACKAGES += \
     init.nfc.samsung.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
-    init.qcom.usb.rc \
     init.qti.ufs.rc \
     init.samsung.bsp.rc \
     init.samsung.display.rc \
@@ -487,7 +486,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sdio.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
-    init.qcom.usb.sh \
     init.qti.chg_policy.sh \
 
 # Recovery
@@ -567,6 +565,10 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.3-service-qti \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh \
+
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 
 # Vendor Service Manager
 PRODUCT_PACKAGES += \
