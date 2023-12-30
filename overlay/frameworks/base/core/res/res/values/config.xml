@@ -52,7 +52,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">5</integer>
+   <item name="config_screenBrightnessSettingMinimum" format="float" type="dimen">1.0</item>
 
     <!-- Allow the gesture to double tap the power button twice to start the camera while the device
          is non-interactive. -->
